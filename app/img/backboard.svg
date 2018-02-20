@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="697px" height="293px" viewBox="0 0 697 293" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>backboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="141 0 550 0 697 293 0 293"></polygon>
+        <path d="M208.628407,47 L478.515065,47 L573,247 L125,247 L208.628407,47 Z M216.536585,66 L149,232 L548,231 L471.95122,66 L216.536585,66 Z" id="path-2"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="backboard">
+            <g id="Rectangle">
+                <use fill="#FFFFF3" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <path stroke="#000000" stroke-width="3" d="M141.942806,1.5 L2.38649231,291.5 L694.569243,291.5 L549.074362,1.5 L141.942806,1.5 Z"></path>
+            </g>
+            <g id="Combined-Shape">
+                <use fill="#DB3E3F" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <path stroke="#000000" stroke-width="3" d="M209.627047,48.5 L127.253066,245.5 L570.632398,245.5 L477.564736,48.5 L209.627047,48.5 Z M215.527464,64.5 L472.911523,64.5 L550.340308,232.494139 L146.76806,233.505599 L215.527464,64.5 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>
