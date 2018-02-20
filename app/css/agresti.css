@@ -19,53 +19,84 @@
     left: 246px;
     width: 29px; }
   .frame #face {
-    transform: translate(-2px, 41px);
+    transform: translate(-24px, 51px);
     width: 176px;
-    animation-name: faceAnimate;
-    animation-duration: 2s;
-    animation-direction: alternate; }
+    animation: faceAnimate 5s 2;
+    animation-direction: alternate;
+    -webkit-animation: faceAnimate 1s 2;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-direction: alternate;
+    /* Safari 4.0 - 8.0 */ }
+
+@keyframes faceAnimate {
+  0% {
+    transform: translate(-24px, 51px); }
+  50% {
+    transform: translate(-2px, 41px); }
+  100% {
+    transform: translate(-24px, 51px); } }
+  .frame #face:hover {
+    transform: translate(-2px, 41px); }
 
 @keyframes faceAnimate {
   from {
-    transform: translate(-24px, 81px); }
+    transform: translate(-24px, 51px); }
   to {
     transform: translate(-2px, 41px); } }
   .frame #head {
-    top: 129px;
-    left: 244px;
-    width: 34px; }
+    transform: translate(244px, 129px);
+    width: 34px;
+    animation: headAnim 3s; }
+
+@keyframes headAnim {
+  from {
+    transform: translate(241px, 132px); }
+  to {
+    transform: translate(244px, 129px); } }
   .frame #inner-window {
     position: absolute;
+    transform: translate(0, 0);
     width: 420px;
-    top: 0;
     z-index: 100; }
   .frame #left-arm {
-    top: 162px;
-    left: 217px;
+    transform: translate(217px, 162px);
     width: 43px; }
   .frame #right-arm {
-    top: 155px;
-    left: 263px;
-    width: 45px; }
+    transform: translate(263px, 155px);
+    width: 45px;
+    animation: rightArmAnim 3s; }
+
+@keyframes rightArmAnim {
+  from {
+    transform: translate(257px, 158px); }
+  to {
+    transform: translate(263px, 155px); } }
   .frame #right-leg {
-    top: 211px;
-    left: 247px;
+    transform: translate(247px, 211px);
     width: 35px; }
   .frame #left-leg {
-    top: 205px;
-    left: 240px;
+    transform: translate(240px, 205px);
     width: 18px; }
   .frame #torso {
-    top: 168px;
-    left: 235px;
+    transform: translate(235px, 168px);
     width: 45px; }
   .frame #right-curtain {
-    top: 102px;
-    left: 285px;
-    width: 83px; }
+    transform: translate(285px, 102px);
+    width: 83px;
+    animation: rightCurtinAnim 3s; }
+
+@keyframes rightCurtinAnim {
+  from {
+    transform: translate(266px, 102px); }
+  to {
+    transform: translate(285px, 102px); } }
   .frame #left-curtain {
-    top: 105px;
-    left: 165px;
-    width: 83px; }
-  .frame #frame {
-    display: none; }
+    transform: translate(165px, 105px);
+    width: 83px;
+    animation: leftCurtinAnim 3s; }
+
+@keyframes leftCurtinAnim {
+  from {
+    transform: translate(180px, 105px); }
+  to {
+    transform: translate(165px, 105px); } }
