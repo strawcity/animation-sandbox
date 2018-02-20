@@ -1,0 +1,60 @@
+.frame {
+  position: relative;
+  width: 420px;
+  height: 500px;
+  margin: 100px auto;
+  background: #77D0F6;
+  background-image: url("/img/agresti/agresti2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  border: 1px black solid; }
+  .frame img {
+    width: 100%;
+    position: absolute;
+    opacity: 0.3; }
+  .frame #background {
+    width: 313px;
+    left: 105px; }
+  .frame #chest {
+    top: 147px;
+    left: 246px;
+    width: 29px; }
+  .frame #face {
+    display: none; }
+  .frame #head {
+    top: 129px;
+    left: 244px;
+    width: 34px; }
+  .frame #frame {
+    display: none; }
+  .frame #left-arm {
+    top: 162px;
+    left: 217px;
+    width: 43px; }
+  .frame #right-arm {
+    top: 155px;
+    left: 263px;
+    width: 45px; }
+  .frame #right-leg {
+    top: 211px;
+    left: 247px;
+    width: 35px; }
+  .frame #left-leg {
+    top: 205px;
+    left: 240px;
+    width: 18px; }
+  .frame #torso {
+    top: 168px;
+    left: 235px;
+    width: 45px; }
+  .frame #right-curtain {
+    top: 102px;
+    left: 285px;
+    width: 83px; }
+  .frame #left-curtain {
+    top: 102px;
+    left: 285px;
+    width: 83px; }
+  .frame #frame {
+    display: none; }

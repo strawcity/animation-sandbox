@@ -1,0 +1,172 @@
+.frame  {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin: 100px auto;
+  background: #77D0F6;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  border: 1px black solid;
+  img {
+    width: 100%;
+    position: absolute;
+    // opacity: 0.6;
+  }
+  #sky {
+    width: 101%;
+    // display: none;
+  }
+
+  #net {
+    width: 34%;
+    top: -48px;
+    left: 165px;
+    position: absolute;
+    z-index: 90;
+    animation-name: netMovement;
+    animation-duration: 2s;
+  }
+  @keyframes netMovement {
+    from {top: -65px;}
+    to {top: -48px;}
+  }
+
+  #backboard {
+    width: 65%;
+    top: -94px;
+    left: 88px;
+    position: absolute;
+    z-index: 100;
+    animation-name: backboardMovement;
+    animation-duration: 2s;
+  }
+  @keyframes backboardMovement {
+    from {top: -106px;}
+    to {top: -94px;}
+  }
+
+  #basketball {
+    width: 129%;
+    top: -13px;
+    left: 4px;
+    position: absolute;
+    animation-name: basketballRotation;
+    animation-duration: 2s;
+  }
+  @keyframes basketballRotation {
+    from {top: 2px; left: -1px;}
+    to {top: -13px; left: 4px;}
+  }
+
+  #basketball-frame {
+    width: 115px;
+    height: 115px;
+    top: 186px;
+    left: 196px;
+    position: absolute;
+    border-radius: 178px;
+    background: #FF5D3E;
+    overflow: hidden;
+    border: 2px solid black;
+    animation-name: basketballMove;
+    animation-duration: 2s;
+  }
+
+  @keyframes basketballMove {
+    from {top: 235px;}
+    to {top: 186px;}
+  }
+
+  #cloud2 {
+    width: 58%;
+    top: -47px;
+    left: 367px;
+    position: absolute;
+    animation-name: cloud2Move;
+    animation-duration: 2s;
+  }
+
+  @keyframes cloud2Move {
+    from {top: -52px; left: 367px}
+    to {top: -47px; left: 367px}
+  }
+
+  #cloud8 {
+    width: 45%;
+    top: 174px;
+    left: -60px;
+    position: absolute;
+    animation-name: cloud8Move;
+    animation-duration: 2s;
+  }
+
+  @keyframes cloud8Move {
+    from {top: 170px; left: -60px}
+    to {top: 174px; left: -60px}
+  }
+
+  #cloud11 {
+    width: 86%;
+    top: -65px;
+    left: -78px;
+    position: absolute;
+    animation-name: cloud11Move;
+    animation-duration: 2s;
+  }
+
+  @keyframes cloud11Move {
+    from {top: -70px; left: -78px}
+    to {top: -65px; left: -78px}
+  }
+
+  #cloud5 {
+    width: 61%;
+    top: 216px;
+    left: 351px;
+    position: absolute;
+  }
+
+  #face {
+    width: 19%;
+    bottom: -43px;
+    left: 198px;
+    position: absolute;
+    animation-name: faceMove;
+    animation-duration: 2s;
+  }
+
+  @keyframes faceMove {
+    from {bottom: -18px;}
+    to {bottom: -43px;}
+  }
+
+
+  #left-arm {
+    width: 24%;
+    bottom: -19px;
+    left: 107px;
+    position: absolute;
+    animation-name: leftArmMove;
+    animation-duration: 2s;
+  }
+
+  @keyframes leftArmMove {
+    from {bottom: -12px; transform: rotate(4deg);}
+    to {bottom: -19px; transform: rotate(0deg);}
+  }
+
+  #right-arm {
+    width: 23%;
+    bottom: -80px;
+    left: 285px;
+    position: absolute;
+    animation-name: rightArmMove;
+    animation-duration: 2s;
+  }
+
+  @keyframes rightArmMove {
+    from {bottom: -50px;}
+    to {bottom: -80px;}
+  }
+}

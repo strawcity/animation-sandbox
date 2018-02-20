@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="77px" height="90px" viewBox="0 0 77 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>torso</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-420.000000, -299.000000)">
+        <path d="M443.639319,299 C447.14583,314.91276 444.950517,326.835938 437.053382,334.769531 C425.207679,346.669922 419.893226,366.692383 420.001624,376.426758 C420.07389,382.916341 420.509762,385.686849 421.309241,384.738281 C434.475908,388.264323 448.715166,389.145833 464.027015,387.382813 C479.338864,385.619792 490.178056,383.920247 496.544593,382.28418 L468.290686,311.12793 L443.639319,299 Z" id="torso" fill="#C24B4B"></path>
+    </g>
+</svg>
