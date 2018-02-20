@@ -1,18 +1,16 @@
 .frame {
   position: relative;
-  width: 420px;
+  width: 416px;
   height: 500px;
   margin: 100px auto;
-  background: #77D0F6;
-  background-image: url("/img/agresti/agresti2.png");
+  background: #F3E626;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
-  border: 1px black solid; }
+  border: 2px black solid; }
   .frame img {
     width: 100%;
-    position: absolute;
-    opacity: 0.3; }
+    position: absolute; }
   .frame #background {
     width: 313px;
     left: 105px; }
@@ -21,13 +19,26 @@
     left: 246px;
     width: 29px; }
   .frame #face {
-    display: none; }
+    transform: translate(-2px, 41px);
+    width: 176px;
+    animation-name: faceAnimate;
+    animation-duration: 2s;
+    animation-direction: alternate; }
+
+@keyframes faceAnimate {
+  from {
+    transform: translate(-24px, 81px); }
+  to {
+    transform: translate(-2px, 41px); } }
   .frame #head {
     top: 129px;
     left: 244px;
     width: 34px; }
-  .frame #frame {
-    display: none; }
+  .frame #inner-window {
+    position: absolute;
+    width: 420px;
+    top: 0;
+    z-index: 100; }
   .frame #left-arm {
     top: 162px;
     left: 217px;
@@ -53,8 +64,8 @@
     left: 285px;
     width: 83px; }
   .frame #left-curtain {
-    top: 102px;
-    left: 285px;
+    top: 105px;
+    left: 165px;
     width: 83px; }
   .frame #frame {
     display: none; }
