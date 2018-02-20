@@ -20,50 +20,46 @@
 
   #net {
     width: 34%;
-    top: -48px;
-    left: 165px;
+    transform: translate(165px, -48px);
     position: absolute;
     z-index: 90;
     animation-name: netMovement;
     animation-duration: 2s;
   }
   @keyframes netMovement {
-    from {top: -65px;}
-    to {top: -48px;}
+    from {transform: translate(165px, -70px);}
+    to {transform: translate(165px, -48px);}
   }
 
   #backboard {
     width: 65%;
-    top: -94px;
-    left: 88px;
+    transform: translate(88px, -94px);
     position: absolute;
     z-index: 100;
     animation-name: backboardMovement;
     animation-duration: 2s;
   }
   @keyframes backboardMovement {
-    from {top: -106px;}
-    to {top: -94px;}
+    from {transform: translate(88px, -106px);}
+    to {transform: translate(88px, -94px);}
   }
 
   #basketball {
     width: 129%;
-    top: -13px;
-    left: 4px;
+    transform: translate(4px, -13px);
     position: absolute;
     animation-name: basketballRotation;
     animation-duration: 2s;
   }
   @keyframes basketballRotation {
-    from {top: 2px; left: -1px;}
-    to {top: -13px; left: 4px;}
+    from {transform: translate(-1px, 2px);}
+    to {transform: translate(4px, -13px);}
   }
 
   #basketball-frame {
     width: 115px;
     height: 115px;
-    top: 186px;
-    left: 196px;
+    transform: translate(196px, 186px);
     position: absolute;
     border-radius: 178px;
     background: #FF5D3E;
@@ -74,99 +70,99 @@
   }
 
   @keyframes basketballMove {
-    from {top: 235px;}
-    to {top: 186px;}
+    from {transform: translate(196px, 235px);}
+    to {transform: translate(196px, 186px);}
   }
 
   #cloud2 {
     width: 58%;
-    top: -47px;
-    left: 367px;
+    transform: translate(367px, -47px);
     position: absolute;
     animation-name: cloud2Move;
     animation-duration: 2s;
   }
 
   @keyframes cloud2Move {
-    from {top: -52px; left: 367px}
-    to {top: -47px; left: 367px}
+    from {transform: translate(367px, -37px);}
+    to {transform: translate(367px, -47px);}
   }
 
   #cloud8 {
     width: 45%;
-    top: 174px;
-    left: -60px;
+    transform: translate(-60px, 189px);
     position: absolute;
     animation-name: cloud8Move;
     animation-duration: 2s;
   }
 
   @keyframes cloud8Move {
-    from {top: 170px; left: -60px}
-    to {top: 174px; left: -60px}
+    from {transform: translate(-60px, 199px);}
+    to {transform: translate(-60px, 189px);}
   }
 
   #cloud11 {
     width: 86%;
-    top: -65px;
-    left: -78px;
+    transform: translate(-78px, -65px);
     position: absolute;
     animation-name: cloud11Move;
     animation-duration: 2s;
   }
 
   @keyframes cloud11Move {
-    from {top: -70px; left: -78px}
-    to {top: -65px; left: -78px}
+    from {transform: translate(-78px, -55px);}
+    to {transform: translate(-78px, -65px);}
   }
 
   #cloud5 {
     width: 61%;
-    top: 216px;
-    left: 351px;
+    transform: translate(351px, 216px);
     position: absolute;
+    animation-name: cloud5Move;
+    animation-duration: 2s;
+  }
+
+  @keyframes cloud5Move {
+    from {transform: translate(351px, 226px);}
+    to {transform: translate(351px, 216px);}
   }
 
   #face {
     width: 19%;
-    bottom: -43px;
-    left: 198px;
+    transform: translate(198px, 450px);
     position: absolute;
     animation-name: faceMove;
     animation-duration: 2s;
   }
 
   @keyframes faceMove {
-    from {bottom: -18px;}
-    to {bottom: -43px;}
+    from {transform: translate(198px, 445px);}
+    to {transform: translate(198px, 450px);}
   }
 
 
   #left-arm {
     width: 24%;
-    bottom: -19px;
-    left: 107px;
+    transform: translate(107px, 288px);
     position: absolute;
     animation-name: leftArmMove;
     animation-duration: 2s;
   }
 
   @keyframes leftArmMove {
-    from {bottom: -12px; transform: rotate(4deg);}
-    to {bottom: -19px; transform: rotate(0deg);}
+    from {transform: translate(107px, 305px) rotate(4deg);}
+    to {transform: translate(107px, 288px) rotate(0deg);}
   }
 
   #right-arm {
     width: 23%;
-    bottom: -80px;
-    left: 285px;
+    transform: translate(285px, 321px);
     position: absolute;
     animation-name: rightArmMove;
     animation-duration: 2s;
   }
 
   @keyframes rightArmMove {
-    from {bottom: -50px;}
-    to {bottom: -80px;}
+    from {transform: translate(285px, 304px);}
+    to {transform: translate(285px, 321px);}
   }
 }
