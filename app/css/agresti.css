@@ -10,6 +10,11 @@
   border: 2px black solid; }
   .frame img {
     position: absolute; }
+  .frame #grain {
+    height: 100%;
+    z-index: 101;
+    opacity: 0.14;
+    left: -30; }
   .frame #background {
     width: 313px;
     left: 105px; }

@@ -1,12 +1,11 @@
+var grain = document.querySelector('#grain');
 var face = document.querySelector('#face');
-var building = document.querySelector('.frame');
 var rightCurtain = document.querySelector('#right-curtain');
 var leftCurtain = document.querySelector('#left-curtain');
 var rightArm = document.querySelector('#right-arm');
 var head = document.querySelector('#head');
 
 function shpotted() {
-  console.log('mouse enter');
   var durationShpot = 1000;
   anime({
     targets: face,
@@ -44,7 +43,6 @@ function shpotted() {
 }
 
 function peepin() {
-  console.log('mouse leave');
   var durationPeep = 3000;
   anime({
     targets: face,
@@ -83,8 +81,5 @@ function peepin() {
   });
 }
 
-
-
-// face.addEventListener('mouseenter', peepin, false);
-building.addEventListener('mouseenter', shpotted, false);
-building.addEventListener('mouseleave', peepin, false);
+grain.addEventListener('mouseenter', shpotted, false);
+grain.addEventListener('mouseleave', peepin, false);
