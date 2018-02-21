@@ -1,7 +1,7 @@
 console.log('main.js');
 
 var face = document.querySelector('#face');
-var building = document.querySelector('#inner-window');
+var building = document.querySelector('.frame');
 var rightCurtain = document.querySelector('#right-curtain');
 var leftCurtain = document.querySelector('#left-curtain');
 var rightArm = document.querySelector('#right-arm');
@@ -12,8 +12,8 @@ function shpotted() {
   var durationShpot = 1000;
   anime({
     targets: face,
-    translateX: -24,
-    translateY: 51,
+    translateX: -78,
+    translateY: 25,
     duration: durationShpot,
     elasticity: 0
   });
@@ -61,7 +61,7 @@ function peepin() {
     translateX: 0,
     duration: durationPeep,
     elasticity: 100,
-    easing: 'easeInOutQuart'
+    easing: 'easeOutQuint'
   });
   anime({
     targets: leftCurtain,
