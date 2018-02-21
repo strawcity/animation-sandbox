@@ -10,7 +10,6 @@
   overflow: hidden;
   border: 2px black solid;
   img {
-    width: 100%;
     position: absolute;
     // opacity: 0.3;
   }
@@ -27,31 +26,20 @@
   }
 
   #face {
-    transform: translate(-24px, 51px);
+    top: 41px;
+    left: -2px;
+    // transform: translate(-2px, 41px);
     width: 176px;
-    animation: faceAnimate 5s 2;
-    animation-direction: alternate;
-    -webkit-animation: faceAnimate 1s 2; /* Safari 4.0 - 8.0 */
-    -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
-
   }
-  @keyframes faceAnimate {
-    0%  {transform: translate(-24px, 51px);}
-    50% {transform: translate(-2px, 41px);}
-    100%  {transform: translate(-24px, 51px);}
-  }
-  #face:hover {
-    transform: translate(-2px, 41px);
-  }
-  @keyframes faceAnimate {
-    from {transform: translate(-24px, 51px);}
-    to {transform: translate(-2px, 41px);}
-  }
+  // @keyframes faceAnimateIn {
+  //   0% {transform: translate(-2px, 41px);}
+  //   100%  {transform: translate(-24px, 51px);}
+  // }
 
   #head {
-    transform: translate(244px, 129px);
+    top: 132px;
+    left: 241px;
     width: 34px;
-    animation: headAnim 3s;
   }
   @keyframes headAnim {
     from {transform: translate(241px, 132px);}
@@ -62,7 +50,6 @@
     position: absolute;
     transform: translate(0, 0);
     width: 420px;
-    z-index: 100;
   }
 
   #left-arm {
@@ -71,9 +58,9 @@
   }
 
   #right-arm {
-    transform: translate(263px, 155px);
+    top: 155px;
+    left: 263px;
     width: 45px;
-    animation: rightArmAnim 3s;
   }
   @keyframes rightArmAnim {
     from {transform: translate(257px, 158px);}
@@ -96,9 +83,9 @@
   }
 
   #right-curtain {
-    transform: translate(285px, 102px);
+    left: 266px;
+    top: 102px;
     width: 83px;
-    animation: rightCurtinAnim 3s;
   }
   @keyframes rightCurtinAnim {
     from {transform: translate(266px, 102px);}
@@ -106,9 +93,9 @@
   }
 
   #left-curtain {
-    transform: translate(165px, 105px);
+    top: 105px;
+    left: 180px;
     width: 83px;
-    animation: leftCurtinAnim 3s;
   }
   @keyframes leftCurtinAnim {
     from {transform: translate(180px, 105px);}

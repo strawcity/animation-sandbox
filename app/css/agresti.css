@@ -9,7 +9,6 @@
   overflow: hidden;
   border: 2px black solid; }
   .frame img {
-    width: 100%;
     position: absolute; }
   .frame #background {
     width: 313px;
@@ -19,34 +18,13 @@
     left: 246px;
     width: 29px; }
   .frame #face {
-    transform: translate(-24px, 51px);
-    width: 176px;
-    animation: faceAnimate 5s 2;
-    animation-direction: alternate;
-    -webkit-animation: faceAnimate 1s 2;
-    /* Safari 4.0 - 8.0 */
-    -webkit-animation-direction: alternate;
-    /* Safari 4.0 - 8.0 */ }
-
-@keyframes faceAnimate {
-  0% {
-    transform: translate(-24px, 51px); }
-  50% {
-    transform: translate(-2px, 41px); }
-  100% {
-    transform: translate(-24px, 51px); } }
-  .frame #face:hover {
-    transform: translate(-2px, 41px); }
-
-@keyframes faceAnimate {
-  from {
-    transform: translate(-24px, 51px); }
-  to {
-    transform: translate(-2px, 41px); } }
+    top: 41px;
+    left: -2px;
+    width: 176px; }
   .frame #head {
-    transform: translate(244px, 129px);
-    width: 34px;
-    animation: headAnim 3s; }
+    top: 132px;
+    left: 241px;
+    width: 34px; }
 
 @keyframes headAnim {
   from {
@@ -56,15 +34,14 @@
   .frame #inner-window {
     position: absolute;
     transform: translate(0, 0);
-    width: 420px;
-    z-index: 100; }
+    width: 420px; }
   .frame #left-arm {
     transform: translate(217px, 162px);
     width: 43px; }
   .frame #right-arm {
-    transform: translate(263px, 155px);
-    width: 45px;
-    animation: rightArmAnim 3s; }
+    top: 155px;
+    left: 263px;
+    width: 45px; }
 
 @keyframes rightArmAnim {
   from {
@@ -81,9 +58,9 @@
     transform: translate(235px, 168px);
     width: 45px; }
   .frame #right-curtain {
-    transform: translate(285px, 102px);
-    width: 83px;
-    animation: rightCurtinAnim 3s; }
+    left: 266px;
+    top: 102px;
+    width: 83px; }
 
 @keyframes rightCurtinAnim {
   from {
@@ -91,9 +68,9 @@
   to {
     transform: translate(285px, 102px); } }
   .frame #left-curtain {
-    transform: translate(165px, 105px);
-    width: 83px;
-    animation: leftCurtinAnim 3s; }
+    top: 105px;
+    left: 180px;
+    width: 83px; }
 
 @keyframes leftCurtinAnim {
   from {
