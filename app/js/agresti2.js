@@ -1,5 +1,3 @@
-console.log('main.js');
-
 var face = document.querySelector('#face');
 var building = document.querySelector('.frame');
 var rightCurtain = document.querySelector('#right-curtain');
