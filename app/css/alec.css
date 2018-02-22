@@ -1,0 +1,41 @@
+.frame {
+  position: relative;
+  width: 310px;
+  height: 290px;
+  margin: 100px auto 20px;
+  background: #77D0F6;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  border: 1px black solid; }
+  .frame img {
+    width: 100%;
+    position: absolute; }
+  .frame #body {
+    width: 352px;
+    top: 23px;
+    left: -93px; }
+  .frame #head {
+    width: 214px;
+    top: 141px;
+    left: -44px; }
+  .frame #eye {
+    width: 27px;
+    top: 62px;
+    left: 201px; }
+  .frame #head-div {
+    width: 518px;
+    height: 304px;
+    border-radius: 180px;
+    left: 101px;
+    position: absolute;
+    overflow: hidden;
+    top: -117px; }
+
+.input {
+  width: 300px;
+  margin: 0 auto; }
+  .input input {
+    width: 300px;
+    border: 1px solid black;
+    font-size: 28px; }
