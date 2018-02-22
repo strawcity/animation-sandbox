@@ -118,15 +118,16 @@ function aninmateType(inputLength) {
       });
       anime({
         targets: beakTop,
-        rotateZ: 2,
-        translateX: 3,
+        rotateZ: 4,
+        translateX: 2,
+        translateY: 1,
         duration: 1000,
         elasticity: 0,
         easing: 'easeOutExpo'
       });
       anime({
         targets: head,
-        rotate: 5,
+        rotate: 2,
         translateX: 3,
         duration: 500,
         elasticity: 0,
@@ -166,6 +167,13 @@ function aninmateType(inputLength) {
         translateX: 0,
         rotateY: 0,
         translateY: 0,
+        duration: 1000,
+        elasticity: 0,
+        easing: 'easeOutExpo'
+      });
+      anime({
+        targets: beakTop,
+        rotateZ: 0,
         duration: 1000,
         elasticity: 0,
         easing: 'easeOutExpo'
