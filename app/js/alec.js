@@ -2,6 +2,8 @@ var frame = document.querySelector('.frame');
 var head = document.querySelector('#head');
 var body = document.querySelector('#body');
 var eye = document.querySelector('#eye');
+var beakTop = document.querySelector('#beak-top');
+var eye = document.querySelector('#eye');
 var input = $('input');
 
 function lookLeft() {
@@ -10,6 +12,13 @@ function lookLeft() {
     targets: head,
     rotate: 7,
     translateX: 3,
+    duration: 1000,
+    elasticity: 0,
+    easing: 'easeOutExpo'
+  });
+  anime({
+    targets: beakTop,
+    rotateZ: 7,
     duration: 1000,
     elasticity: 0,
     easing: 'easeOutExpo'
@@ -25,13 +34,14 @@ function lookLeft() {
   });
   anime({
     targets: body,
-    translateX: 4,
-    rotateY: -15,
-    translateY: 6,
-    duration: 1500,
+    translateX: 2,
+    rotateY: -16,
+    translateY: -2,
+    duration: 1100,
     elasticity: 0,
     easing: 'easeOutExpo'
   });
+
 }
 
 function aninmateType(inputLength) {
@@ -51,7 +61,7 @@ function aninmateType(inputLength) {
       console.log(inputLength);
       anime({
         targets: head,
-        rotate: 3,
+        rotate: 5,
         translateX: 3,
         duration: 600,
         elasticity: 0,
@@ -67,10 +77,10 @@ function aninmateType(inputLength) {
       });
       anime({
         targets: body,
-        translateX: 4,
+        translateX: 2,
         rotateY: -10,
-        translateY: 4,
-        duration: 3000,
+        translateY: -1,
+        duration: 1000,
         elasticity: 0,
         easing: 'easeOutExpo'
       });
@@ -79,9 +89,8 @@ function aninmateType(inputLength) {
       console.log(inputLength);
       anime({
         targets: eye,
-        translateX: 0,
+        translateX: -1,
         translateY: 13,
-        scaleY: -1,
         scaleY: -1,
         duration: 500,
         elasticity: 0,
@@ -92,11 +101,27 @@ function aninmateType(inputLength) {
       console.log(inputLength);
       anime({
         targets: eye,
-        translateX: 4,
-        translateY: 13,
-        scaleY: -1,
+        translateX: 0,
+        translateY: 8,
         scaleY: -1,
         duration: 500,
+        elasticity: 0,
+        easing: 'easeOutExpo'
+      });
+      anime({
+        targets: head,
+        rotate: 0,
+        translateX: 2,
+        duration: 500,
+        elasticity: 0,
+        easing: 'easeOutExpo'
+      });
+      anime({
+        targets: body,
+        translateX:4,
+        rotateY: -7,
+        translateY: -1,
+        duration: 1000,
         elasticity: 0,
         easing: 'easeOutExpo'
       });
@@ -104,18 +129,28 @@ function aninmateType(inputLength) {
     case inputLength == 18:
       console.log(inputLength);
       anime({
-        targets: head,
-        rotate: 1,
-        translateX: 2,
+        targets: eye,
+        translateX: 0,
+        translateY: 0,
+        scaleY: 1,
         duration: 500,
         elasticity: 0,
         easing: 'easeOutExpo'
       });
       anime({
-        targets: eye,
-        translateX: 7,
-        translateY: 13,
+        targets: head,
+        rotate: 0,
+        translateX: 0,
         duration: 500,
+        elasticity: 0,
+        easing: 'easeOutExpo'
+      });
+      anime({
+        targets: body,
+        translateX: 0,
+        rotateY: 0,
+        translateY: 0,
+        duration: 1000,
         elasticity: 0,
         easing: 'easeOutExpo'
       });

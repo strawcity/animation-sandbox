@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="74px" height="35px" viewBox="0 0 74 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>beak-bottom</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Birb" transform="translate(-288.000000, -134.000000)" fill="#A68854">
+            <path d="M290.929572,127.875883 C294.185423,155.599832 305.118924,168.900757 323.730075,167.778658 C342.341225,166.656558 355.131888,160.017008 362.102062,147.860007 C354.807056,150.297015 343.981492,150.807673 329.625373,149.391983 C315.269253,147.976293 302.370652,140.80426 290.929572,127.875883 Z" id="beak-bottom" transform="translate(326.515817, 147.860007) rotate(-10.000000) translate(-326.515817, -147.860007) "></path>
+        </g>
+    </g>
+</svg>

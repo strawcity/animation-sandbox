@@ -1,41 +1,55 @@
 .frame {
   position: relative;
-  width: 310px;
-  height: 290px;
+  width: 320px;
+  height: 320px;
   margin: 100px auto 20px;
-  background: #77D0F6;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
-  border: 1px black solid; }
+  border: 1px black solid;
+  border-radius: 200px; }
   .frame img {
     width: 100%;
     position: absolute; }
   .frame #body {
     width: 352px;
-    top: 23px;
+    top: 43px;
     left: -93px; }
   .frame #head {
-    width: 214px;
-    top: 141px;
-    left: -44px; }
+    width: 191px;
+    top: 146px;
+    left: -32px; }
+  .frame #beak-top {
+    width: 60px;
+    top: 189px;
+    left: 119px; }
+  .frame #beak-bottom {
+    width: 93px;
+    top: 247px;
+    left: 69px; }
   .frame #eye {
     width: 27px;
-    top: 62px;
+    top: 80px;
     left: 201px; }
   .frame #head-div {
     width: 518px;
     height: 304px;
     border-radius: 180px;
-    left: 101px;
+    left: 100px;
     position: absolute;
-    overflow: hidden;
-    top: -117px; }
+    top: -101px; }
+  .frame #wing {
+    width: 240px;
+    top: 212px;
+    left: -91px; }
 
 .input {
   width: 300px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  border: 2px solid black; }
   .input input {
     width: 300px;
-    border: 1px solid black;
-    font-size: 28px; }
+    border: none;
+    font-size: 28px;
+    margin: 0;
+    padding: 0; }
