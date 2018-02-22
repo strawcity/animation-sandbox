@@ -25,7 +25,7 @@ function lookLeft() {
   });
   anime({
     targets: eye,
-    translateX: -8,
+    translateX: -13,
     translateY: 15,
     scaleY: -1,
     duration: 600,
@@ -50,7 +50,7 @@ function aninmateType(inputLength) {
       console.log(inputLength);
       anime({
         targets: eye,
-        translateX: -6,
+        translateX: -8,
         translateY: 15,
         duration: 500,
         elasticity: 0,
