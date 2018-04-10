@@ -10,8 +10,8 @@ function lookLeft() {
   console.log('mouse enter');
   anime({
     targets: head,
-    rotate: 4,
-    translateX: 2,
+    rotate: 5,
+    translateX: 3,
     duration: 1000,
     elasticity: 0,
     easing: 'easeOutExpo'
@@ -19,14 +19,15 @@ function lookLeft() {
   anime({
     targets: beakTop,
     rotateZ: 7,
+    translateY: 2,
     duration: 1000,
     elasticity: 0,
     easing: 'easeOutExpo'
   });
   anime({
     targets: eye,
-    translateX: -13,
-    translateY: 15,
+    translateX: -17,
+    translateY: 17,
     scaleY: -1,
     duration: 600,
     elasticity: 0,
@@ -50,8 +51,8 @@ function aninmateType(inputLength) {
       console.log(inputLength);
       anime({
         targets: eye,
-        translateX: -8,
-        translateY: 15,
+        translateX: -12,
+        translateY: 17,
         duration: 500,
         elasticity: 0,
         easing: 'easeOutExpo'

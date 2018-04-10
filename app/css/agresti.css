@@ -1,4 +1,4 @@
-.frame {
+.agresti-frame {
   position: relative;
   width: 416px;
   height: 500px;
@@ -8,25 +8,25 @@
   background-size: cover;
   overflow: hidden;
   border: 2px black solid; }
-  .frame img {
+  .agresti-frame img {
     position: absolute; }
-  .frame #grain {
+  .agresti-frame #grain {
     height: 100%;
     z-index: 101;
     opacity: 0.14;
     left: -30; }
-  .frame #background {
+  .agresti-frame #background {
     width: 313px;
     left: 105px; }
-  .frame #chest {
+  .agresti-frame #chest {
     top: 147px;
     left: 246px;
     width: 29px; }
-  .frame #face {
+  .agresti-frame #face {
     top: 41px;
     left: -2px;
     width: 176px; }
-  .frame #head {
+  .agresti-frame #head {
     top: 132px;
     left: 241px;
     width: 34px; }
@@ -36,14 +36,14 @@
     transform: translate(241px, 132px); }
   to {
     transform: translate(244px, 129px); } }
-  .frame #inner-window {
+  .agresti-frame #inner-window {
     position: absolute;
     transform: translate(0, 0);
     width: 420px; }
-  .frame #left-arm {
+  .agresti-frame #left-arm {
     transform: translate(217px, 162px);
     width: 43px; }
-  .frame #right-arm {
+  .agresti-frame #right-arm {
     top: 155px;
     left: 263px;
     width: 45px; }
@@ -53,16 +53,16 @@
     transform: translate(257px, 158px); }
   to {
     transform: translate(263px, 155px); } }
-  .frame #right-leg {
+  .agresti-frame #right-leg {
     transform: translate(247px, 211px);
     width: 35px; }
-  .frame #left-leg {
+  .agresti-frame #left-leg {
     transform: translate(240px, 205px);
     width: 18px; }
-  .frame #torso {
+  .agresti-frame #torso {
     transform: translate(235px, 168px);
     width: 45px; }
-  .frame #right-curtain {
+  .agresti-frame #right-curtain {
     left: 266px;
     top: 102px;
     width: 83px; }
@@ -72,7 +72,7 @@
     transform: translate(266px, 102px); }
   to {
     transform: translate(285px, 102px); } }
-  .frame #left-curtain {
+  .agresti-frame #left-curtain {
     top: 105px;
     left: 180px;
     width: 83px; }

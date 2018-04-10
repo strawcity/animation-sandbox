@@ -1,18 +1,4 @@
 {
-  "name": "gulp-starter",
-  "version": "1.3.0",
-  "author": {
-    "name": "Juri Saltbacka",
-    "email": "juri@3bola.io"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/3bola/gulp-starter.git"
-  },
-  "scripts": {
-    "install": "bower install && gulp -o",
-    "start": "gulp"
-  },
   "devDependencies": {
     "bower": "*",
     "del": "*",
