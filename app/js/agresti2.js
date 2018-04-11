@@ -1,40 +1,40 @@
-var grain = document.querySelector('#grain');
-var face = document.querySelector('#face');
-var rightCurtain = document.querySelector('#right-curtain');
-var leftCurtain = document.querySelector('#left-curtain');
-var rightArm = document.querySelector('#right-arm');
-var head = document.querySelector('#head');
+var agrestiGrain = document.querySelector('#agresti-grain');
+var agrestiFace = document.querySelector('#agresti-face');
+var agrestiRightCurtain = document.querySelector('#agresti-right-curtain');
+var agrestiLeftCurtain = document.querySelector('#agresti-left-curtain');
+var agrestiRightArm = document.querySelector('#agresti-right-arm');
+var agrestiHead = document.querySelector('#agresti-head');
 
 function shpotted() {
   var durationShpot = 1000;
   anime({
-    targets: face,
+    targets: agrestiFace,
     translateX: -78,
     translateY: 25,
     duration: durationShpot,
     elasticity: 0
   });
   anime({
-    targets: rightCurtain,
+    targets: agrestiRightCurtain,
     translateX: 19,
     duration: durationShpot,
     elasticity: 100
   });
   anime({
-    targets: leftCurtain,
+    targets: agrestiLeftCurtain,
     translateX: -15,
     duration: durationShpot,
     elasticity: 100
   });
   anime({
-    targets: rightArm,
+    targets: agrestiRightArm,
     translateX: 6,
     translateY: -3,
     duration: durationShpot,
     elasticity: 100
   });
   anime({
-    targets: head,
+    targets: agrestiHead,
     translateX: 3,
     translateY: -3,
     duration: durationShpot,
@@ -45,7 +45,7 @@ function shpotted() {
 function peepin() {
   var durationPeep = 3000;
   anime({
-    targets: face,
+    targets: agrestiFace,
     translateX: 0,
     translateY: 0,
     duration: durationPeep,
@@ -53,27 +53,27 @@ function peepin() {
     easing: 'easeInOutQuart'
   });
   anime({
-    targets: rightCurtain,
+    targets: agrestiRightCurtain,
     translateX: 0,
     duration: durationPeep,
     elasticity: 100,
     easing: 'easeOutQuint'
   });
   anime({
-    targets: leftCurtain,
+    targets: agrestiLeftCurtain,
     translateX: 0,
     duration: durationPeep,
     elasticity: 100
   });
   anime({
-    targets: rightArm,
+    targets: agrestiRightArm,
     translateX: 0,
     translateY: 0,
     duration: durationPeep,
     elasticity: 100
   });
   anime({
-    targets: head,
+    targets: agrestiHead,
     translateX: 0,
     translateY: 0,
     duration: durationPeep,
@@ -81,5 +81,5 @@ function peepin() {
   });
 }
 
-grain.addEventListener('mouseenter', shpotted, false);
-grain.addEventListener('mouseleave', peepin, false);
+agrestiGrain.addEventListener('mouseenter', shpotted, false);
+agrestiGrain.addEventListener('mouseleave', peepin, false);

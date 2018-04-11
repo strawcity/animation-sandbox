@@ -1,20 +1,19 @@
-var frame = document.querySelector('.frame');
-var net = document.querySelector('#net');
-var backboard = document.querySelector('#backboard');
-var rightArm = document.querySelector('#right-arm');
-var basketball = document.querySelector('#basketball');
-var basketballFrame = document.querySelector('#basketball-frame');
-var cloud2 = document.querySelector('#cloud2');
-var cloud8 = document.querySelector('#cloud8');
-var cloud11 = document.querySelector('#cloud11');
-var cloud5 = document.querySelector('#cloud5');
-var face = document.querySelector('#face');
-var leftArm = document.querySelector('#left-arm');
-var rightArm = document.querySelector('#right-arm');
+var frame = document.querySelector('.huncia');
+var net = document.querySelector('#huncia-net');
+var backboard = document.querySelector('#huncia-backboard');
+var rightArm = document.querySelector('#huncia-right-arm');
+var basketball = document.querySelector('#huncia-basketball');
+var basketballFrame = document.querySelector('#huncia-basketball-frame');
+var cloud2 = document.querySelector('#huncia-cloud2');
+var cloud8 = document.querySelector('#huncia-cloud8');
+var cloud11 = document.querySelector('#huncia-cloud11');
+var cloud5 = document.querySelector('#huncia-cloud5');
+var face = document.querySelector('#huncia-face');
+var leftArm = document.querySelector('#huncia-left-arm');
+var rightArm = document.querySelector('#huncia-right-arm');
 
 function shoot() {
-  console.log('mouse enter');
-  var durationShpot = 2000;
+  var durationShpot = 1100;
   anime({
     targets: net,
     translateY: 30,
@@ -97,47 +96,46 @@ function shoot() {
 }
 
 function unShoot() {
-  console.log('mouse leave');
   var durationPeep = 1000;
   anime({
     targets: net,
-    translateY: 1,
+    translateY: 0,
     duration: durationPeep,
     elasticity: 0,
     easing: 'easeInOutCubic'
   });
   anime({
     targets: backboard,
-    translateY: 1,
+    translateY: 0,
     duration: durationPeep,
     elasticity: 0,
     easing: 'easeInOutCubic'
   });
   anime({
     targets: basketball,
-    translateX: 1,
-    translateY: 1,
+    translateX: 0,
+    translateY: 0,
     duration: durationPeep,
     elasticity: 0,
     easing: 'easeInOutCubic'
   });
   anime({
     targets: basketballFrame,
-    translateY: 1,
+    translateY: 0,
     duration: durationPeep,
     elasticity: 1,
     easing: 'easeInOutCubic'
   });
   anime({
     targets: face,
-    translateY: 1,
+    translateY: 0,
     duration: durationPeep,
     elasticity: 1,
     easing: 'easeInOutCubic'
   });
   anime({
     targets: leftArm,
-    translateY: 1,
+    translateY: 0,
     rotate: 0,
     duration: durationPeep,
     elasticity: 0,
@@ -145,7 +143,7 @@ function unShoot() {
   });
   anime({
     targets: rightArm,
-    translateY: 1,
+    translateY: 0,
     duration: durationPeep,
     elasticity: 0,
     easing: 'easeInOutCubic'

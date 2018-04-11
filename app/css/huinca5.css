@@ -1,4 +1,4 @@
-.frame {
+.huncia {
   position: relative;
   width: 500px;
   height: 500px;
@@ -7,28 +7,28 @@
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
-  border: 1px black solid; }
-  .frame img {
+  border: 3px black solid; }
+  .huncia img {
     width: 100%;
     position: absolute; }
-  .frame #net {
+  .huncia #huncia-net {
     width: 34%;
     top: -84px;
     left: 165px;
     position: absolute;
     z-index: 90; }
-  .frame #backboard {
+  .huncia #huncia-backboard {
     width: 65%;
     top: -106px;
     left: 88px;
     position: absolute;
     z-index: 100; }
-  .frame #basketball {
+  .huncia #huncia-basketball {
     width: 129%;
     top: -1px;
     left: 2px;
     position: absolute; }
-  .frame #basketball-frame {
+  .huncia #huncia-basketball-frame {
     width: 115px;
     height: 115px;
     top: 235px;
@@ -38,37 +38,37 @@
     background: #FF5D3E;
     overflow: hidden;
     border: 2px solid black; }
-  .frame #cloud2 {
+  .huncia #huncia-cloud2 {
     width: 58%;
     top: -52px;
     left: 362px;
     position: absolute; }
-  .frame #cloud8 {
+  .huncia #huncia-cloud8 {
     width: 45%;
     top: 170px;
     left: -65px;
     position: absolute; }
-  .frame #cloud11 {
+  .huncia #huncia-cloud11 {
     width: 86%;
     top: -70px;
     left: -82px;
     position: absolute; }
-  .frame #cloud5 {
+  .huncia #huncia-cloud5 {
     width: 61%;
     top: 216px;
     left: 346px;
     position: absolute; }
-  .frame #face {
+  .huncia #huncia-face {
     width: 19%;
     top: 425px;
     left: 198px;
     position: absolute; }
-  .frame #left-arm {
+  .huncia #huncia-left-arm {
     width: 24%;
     top: 285px;
     left: 107px;
     position: absolute; }
-  .frame #right-arm {
+  .huncia #huncia-right-arm {
     width: 23%;
     top: 304px;
     left: 285px;

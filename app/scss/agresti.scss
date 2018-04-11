@@ -1,111 +1,91 @@
-.agresti-frame  {
+.agresti  {
   position: relative;
   width: 416px;
   height: 500px;
   margin: 100px auto;
   background: #F3E626;
-  // background-image: url("/img/agresti/agresti2.png");
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
   border: 2px black solid;
   img {
     position: absolute;
-    // opacity: 0.3;
   }
 
-  #grain {
+  #agresti-grain {
     height: 100%;
     z-index: 101;
     opacity: 0.14;
-    left: -30;
+    left: -30px;
   }
 
-  #background {
+  #agresti-background {
     width: 313px;
     left: 105px;
   }
 
-  #chest {
+  #agresti-chest {
     top: 147px;
-    left: 246px;
+    left: 248px;
     width: 29px;
   }
 
-  #face {
+  #agresti-face {
     top: 41px;
     left: -2px;
-    // transform: translate(-2px, 41px);
     width: 176px;
   }
-  // @keyframes faceAnimateIn {
-  //   0% {transform: translate(-2px, 41px);}
-  //   100%  {transform: translate(-24px, 51px);}
-  // }
 
-  #head {
+  #agresti-head {
     top: 132px;
     left: 241px;
     width: 34px;
   }
-  @keyframes headAnim {
-    from {transform: translate(241px, 132px);}
-    to {transform: translate(244px, 129px);}
-  }
 
-  #inner-window {
+  #agresti-inner-window {
     position: absolute;
-    transform: translate(0, 0);
+    left: 0;
     width: 420px;
   }
 
-  #left-arm {
-    transform: translate(217px, 162px);
+  #agresti-left-arm {
     width: 43px;
+    top: 164px;
+    left: 215px;
   }
 
-  #right-arm {
+  #agresti-right-arm {
     top: 155px;
     left: 263px;
     width: 45px;
   }
-  @keyframes rightArmAnim {
-    from {transform: translate(257px, 158px);}
-    to {transform: translate(263px, 155px);}
-  }
-
-  #right-leg {
-    transform: translate(247px, 211px);
+  #agresti-right-leg {
     width: 35px;
+    top: 210px;
+    left: 250px;
   }
 
-  #left-leg {
-    transform: translate(240px, 205px);
+  #agresti-left-leg {
     width: 18px;
+    top: 215px;
+    left: 247px;
   }
 
-  #torso {
-    transform: translate(235px, 168px);
-    width: 45px;
+  #agresti-torso {
+    width: 43px;
+    top: 173px;
+    left: 244px;
   }
 
-  #right-curtain {
+  #agresti-right-curtain {
     left: 266px;
     top: 102px;
     width: 83px;
   }
-  @keyframes rightCurtinAnim {
-    from {transform: translate(266px, 102px);}
-    to {transform: translate(285px, 102px);}
-  }
 
-  #left-curtain {
+  #agresti-left-curtain {
     top: 105px;
     left: 180px;
     width: 83px;
-  }
-  @keyframes leftCurtinAnim {
-    from {transform: translate(180px, 105px);}
-    to {transform: translate(165px, 105px);}
   }
 }
