@@ -9,10 +9,11 @@
   border: 3px black solid; }
   .agresti-8 img {
     position: absolute; }
-  .agresti-8 #agresti-8-source {
-    width: 103%;
-    left: -10px;
-    top: -5px; }
+  .agresti-8 #agresti-grain {
+    width: 100%;
+    z-index: 101;
+    opacity: 0.11;
+    left: 0px; }
   .agresti-8 #agresti-8-horizon {
     width: 105%;
     left: -4px;
