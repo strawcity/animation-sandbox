@@ -1,0 +1,43 @@
+.agresti-8 {
+  position: relative;
+  width: 650px;
+  height: 336px;
+  margin: 100px auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  border: 3px black solid; }
+  .agresti-8 img {
+    position: absolute; }
+  .agresti-8 #agresti-8-source {
+    width: 103%;
+    left: -10px;
+    top: -5px; }
+  .agresti-8 #agresti-8-horizon {
+    width: 105%;
+    left: -4px;
+    top: -4px; }
+  .agresti-8 #agresti-8-pen {
+    width: 174px;
+    top: -16px;
+    left: 328px;
+    z-index: 11; }
+  .agresti-8 #agresti-8-sun {
+    width: 75px;
+    top: 28px;
+    left: 381px; }
+  .agresti-8 #agresti-8-shadow-sun {
+    width: 116px;
+    top: 252px;
+    left: 116px; }
+  .agresti-8 #ink {
+    position: absolute;
+    z-index: 20;
+    bottom: 78px;
+    right: 306px; }
+  .agresti-8 #shadow {
+    position: absolute;
+    z-index: 20;
+    top: 187px;
+    right: 306px;
+    width: 483px; }
