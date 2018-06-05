@@ -1,0 +1,46 @@
+.cunningham9 {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden; }
+  .cunningham9 img {
+    width: 65%;
+    position: absolute; }
+  .cunningham9 #cunningham9-woman1 {
+    z-index: 20;
+    left: 69px;
+    top: 60px;
+    width: 282px; }
+  .cunningham9 #cunningham9-woman2 {
+    z-index: 15;
+    left: 48px;
+    top: 127px;
+    width: 320px; }
+  .cunningham9 #cunningham9-woman3 {
+    z-index: 10;
+    left: 43px;
+    top: 185px;
+    width: 330px; }
+  .cunningham9 #cunningham9-woman4 {
+    z-index: 5;
+    left: 49px;
+    top: 250px; }
+  .cunningham9 #cunningham9-machine1 {
+    z-index: 1;
+    left: 93px;
+    top: 140px;
+    width: 244px;
+    transform: rotate(2deg); }
+  .cunningham9 #cunningham9-machine2 {
+    z-index: 1;
+    left: 87px;
+    top: 185px;
+    width: 248px;
+    transform: rotate(1deg); }
+  .cunningham9 #cunningham9-machine3 {
+    z-index: 1;
+    left: 89px;
+    top: 280px;
+    width: 255px; }
