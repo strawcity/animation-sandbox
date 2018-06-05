@@ -17,7 +17,6 @@ function draw() {
     easing: "easeOutQuad",
     duration: 1000
   });
-
   anime({
     targets: "#shadow",
     viewBox: "0 0 1100 140",
@@ -34,10 +33,28 @@ function draw() {
     easing: "easeOutQuad",
     duration: 1000
   });
-
   anime({
     targets: "#agresti-8-pen",
     left: 449,
+    easing: "easeOutQuad",
+    duration: 1000
+  });
+  anime({
+    targets: "#agresti-8-pen-shadow",
+    left: 449,
+    skewX: 0,
+    easing: "easeOutQuad",
+    duration: 1000
+  });
+  anime({
+    targets: "#agresti-8-sun",
+    left: 385,
+    easing: "easeOutQuad",
+    duration: 1000
+  });
+  anime({
+    targets: "#agresti-8-shadow-sun",
+    left: 116,
     easing: "easeOutQuad",
     duration: 1000
   });
@@ -79,6 +96,25 @@ function undraw() {
   anime({
     targets: "#agresti-8-pen",
     left: 328,
+    easing: "easeOutQuad",
+    duration: 1000
+  });
+  anime({
+    targets: "#agresti-8-pen-shadow",
+    left: 278,
+    skewX: -24,
+    easing: "easeOutQuad",
+    duration: 1000
+  });
+  anime({
+    targets: "#agresti-8-sun",
+    left: 365,
+    easing: "easeOutQuad",
+    duration: 1000
+  });
+  anime({
+    targets: "#agresti-8-shadow-sun",
+    left: 146,
     easing: "easeOutQuad",
     duration: 1000
   });

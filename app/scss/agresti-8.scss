@@ -2,7 +2,7 @@
   position: relative;
   width: 650px;
   height: 336px;
-  margin: 100px auto;
+  margin: 50px auto;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -25,20 +25,29 @@
   }
 
   #agresti-8-pen {
-    width: 174px;
+    width: 156px;
     top: -16px;
-    left: 328px;
+    left: 331px;
     z-index: 11;
+  }
+  #agresti-8-pen-shadow {
+    width: 181px;
+    top: 204px;
+    left: 278px;
+    z-index: 11;
+    // -ms-transform: skewX(-55deg); /* IE 9 */
+    // -webkit-transform: skewX(-55deg); /* Safari */
+    //     transform: skewX(-55deg);
   }
   #agresti-8-sun {
     width: 75px;
     top: 28px;
-    left: 381px;
+    left: 365px;
   }
   #agresti-8-shadow-sun {
     width: 116px;
     top: 252px;
-    left: 116px;
+    left: 146px;
   }
   #ink {
     position: absolute;

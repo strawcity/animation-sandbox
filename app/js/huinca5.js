@@ -13,12 +13,12 @@ var leftArm = document.querySelector('#huncia-left-arm');
 var rightArm = document.querySelector('#huncia-right-arm');
 
 function shoot() {
-  var durationShpot = 1100;
+  var durationShpot = 900;
   anime({
     targets: net,
     translateY: 30,
     duration: durationShpot,
-    elasticity: 0,
+    elasticity: 10,
     easing: 'easeOutExpo'
   });
   anime({
@@ -96,7 +96,7 @@ function shoot() {
 }
 
 function unShoot() {
-  var durationPeep = 1000;
+  var durationPeep = 900;
   anime({
     targets: net,
     translateY: 0,
